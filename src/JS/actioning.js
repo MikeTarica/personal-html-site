@@ -4,7 +4,7 @@ function myFunction() {
     if (person == null || person == "") {
         text = "User cancncelled the propmt.";
     } else {
-        text = "Hello" + person + "!  haw re you today?";
+        text = "Hello" + person + "! haw re you today?";
     }
     document.getElementById("demo").innerHTML = text;
 }
