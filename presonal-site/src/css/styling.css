@@ -1,0 +1,71 @@
+                /* General styling */
+                
+                html {
+                    padding: 0px auto;
+                    margin: 0px auto;
+                    /* scroll-behavior: smooth; */
+                }
+                
+                * {
+                    margin: auto;
+                }
+                /* heading tags */
+                
+                h1 {
+                    font-family: sans-serif;
+                    font-size: 10px;
+                }
+                
+                h2 {}
+                
+                h3 {}
+                
+                h4 {}
+                
+                h5 {}
+                
+                h6 {}
+                
+                p {}
+                
+                ul {}
+                
+                ol {}
+                
+                li {}
+                
+                a {
+                    color: #fff;
+                    display: inline-block;
+                    padding: 0 1em;
+                    height: 50px;
+                }
+                
+                nav {
+                    background: black;
+                    position: fixed;
+                }
+                /* classes */
+                
+                #section1 {
+                    background-color: green;
+                }
+                
+                #section2 {
+                    background-color: blueviolet;
+                }
+                
+                #section3 {
+                    background-color: yellow;
+                }
+                
+                section {
+                    background: red;
+                    height: 100vh;
+                    text-align: center;
+                    font-size: 5em;
+                }
+                /* header */
+                /* body */
+                /* footer */
+                /* Animation */
