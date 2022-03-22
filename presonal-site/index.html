@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML 5 Boilerplate</title>
+    <script type="text/javascript" src="src/JS/actioning.js"></script>
 
     <link rel="Stylesheet" href="src/css/styling.css">
 
@@ -13,80 +14,120 @@
 
 <body>
     <header>
-        <div>
-            <h1>Mike tarica Fed Portfolio</h1>
+        <div class="pading-top-bottom">
+            <h1 id="demo" class="header-image">Mike tarica Fed Portfolio</h1>
             <nav>
-                <a href="/presonal-site/index.html">Home</a>
-                <a href="/presonal-site/index.html">Team</a>
-                <a href="/presonal-site/index.html">Contact</a>
+                <div class="navigation">
+                    <a href="/presonal-site/index.html">Home</a>
+                    <a href="/presonal-site/index.html">Team</a>
+                    <a href="/presonal-site/index.html">Contact</a>
 
-                <a href="#section1">1</a>
-                <a href="#section2">2</a>
-                <a href="#section3">3</a>
+                    <a href="#section1">1</a>
+                    <a href="#section2">2</a>
+                    <a href="#section3">3</a>
+                </div>
             </nav>
         </div>
     </header>
-    <div class="sub-header-and menu">
-        <h2>follow the rabbit</h2>
-        <div class="animation drop down">
-            <section id="section1">1</section>
-            <div id="section1" class="articles-teasers">
-                <h2>
-                    Lorem ipsum dolor sit amet.
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada fames ac.
-                </p>
-                <a href="">read more</a>
+
+    <body>
+
+
+        <div class="pading-top-bottom">
+            <input type="text" placeholder="your name" id="myInput">
+            <button type="button" onclick="getInputValue();">Click here to see results </button>
+            <input name="action" type="hidden" value="check" />
+            <h1 id="myHeader"></h1>
+            <p id="myParagraph"></p>
+            <form>
+                Select your favioriote
+                <select id="myList" onchange="myFunction()">
+                <option></option>
+                <option>hello</option>
+                <option>good Bye</option>
+            </select>
+            </form>
+
+            <div>
+                <p id="name"></p>
+                <p id="answer"></p>
+
             </div>
-            <section id="section2" class="fifty">2</section>
-            <div id="section2" class="articles-teasers">
-                <h2>
-                    Lorem ipsum dolor sit amet.
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada fames ac.
-                </p>
-                <a href="">read more</a>
+        </div>
+        <div class="sub-header-and menu pading-top-bottom">
+            <h2>follow the rabbit</h2>
+            <div class="animation drop down">
+                <section id="section1">1</section>
+                <div id="section1" class="articles-teasers">
+                    <h2>
+                        Lorem ipsum dolor sit amet.
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada fames ac.
+                    </p>
+                    <a href="">read more</a>
+                </div>
+
+
+                <section id="section2" class="fifty">2</section>
+
+
+                <div id="section2" class="articles-teasers">
+                    <h2>
+                        Lorem ipsum dolor sit amet.
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada fames ac.
+                    </p>
+                    <a href="">read more</a>
+                </div>
+                <section id="section3">find the way</section>
+                <div id="section3" class="articles-teasers">
+                    <h2>
+                        Lorem ipsum dolor sit amet.
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada fames ac.
+                    </p>
+                    <a href="">read more</a>
+                </div>
+
             </div>
-            <section id="section3">find the way</section>
-            <div id="section3" class="articles-teasers">
-                <h2>
-                    Lorem ipsum dolor sit amet.
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada fames ac.
-                </p>
-                <a href="">read more</a>
-            </div>
+
 
         </div>
 
 
-    </div>
+        <footer>
+            <h3>
+                a little closing header
+            </h3>
+            <div class="body-footer-links pading-top-bottom">
+                <div class="footer-links-left">
+                    <a href="">linking</a>
+                    <a href="">linking</a>
+                    <a href="">linking</a>
+                    <a href="">linking</a>
+                    <a href="">linking</a>
+                    <a href="">linking</a>
+                    <a href="">linking</a>
+                </div>
+                <div class="footer-links-center">
+                    <a href="">linking</a>
+                    <a href="">linking</a>
+                    <a href="">linking</a>
+                    <a href="">linking</a>
+                    <a href="">linking</a>
+                    <a href="">linking</a>
+                    <a href="">linking</a>
 
+                </div>
+                <div class="disclmaior">
+                    <p>small tc s and c </p>
+                </div>
+            </div>
+        </footer>
 
-    <button onclick="myFunction()">Try it</button>
-
-    <p id="demo"></p>
-
-    <p>
-        help tester
-    </p>
-
-    <footer>
-        <h3>
-
-        </h3>
-        <div class="footer-links-left">
-            <a href="">linking</a>
-        </div>
-        <div class="footer-links-center">
-
-        </div>
-    </footer>
-
-</body>
-<script src="src/JS/actioning.js"></script>
+    </body>
 
 </html>
